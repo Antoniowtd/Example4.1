@@ -1,4 +1,5 @@
-# Example 4.1
+# Exercises
+## Example 4.1
 
 #include <stdio.h>
 int main(){
@@ -8,7 +9,7 @@ int main(){
 	return (0);
 }
 
-#Example 4.2
+## Example 4.2
 
 #include <stdio.h> 
  int main() 
@@ -24,15 +25,15 @@ int main(){
 	return(0);
 }
 
-#Example 4.3
+## Example 4.3
 
 
 
-#Exaample 4.4
+## Exaample 4.4
 
 
 
-#Example 4.4
+## Example 4.4
 
 #include <stdio.h> 
  int main() 
@@ -79,10 +80,10 @@ int main(){
 	return(0);
 }
 
-#Example 4.5
+## Example 4.5
 
 
 
-#Example 4.6
+## Example 4.6
 
 
