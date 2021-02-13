@@ -119,8 +119,61 @@ return(0);
 
 ## Example 4.5
 
+Floating point using %d
+#include <stdio.h> 
+/* height and width of a rectangle in inches */
+float width;          
+float height;         
 
+float area;           
+float perimeter;      
+
+int main() {
+	height = 10.3;
+	width = 5.34;
+
+    perimeter = 2*(height + width);
+	printf("Perimeter of the rectangle = %d inches\n", perimeter);
+	
+	area = height * width;
+	printf("Area of the rectangle = %d square inches\n", area);
+
+return(0);
+}
+
+integer using %f
+#include <stdio.h> 
+/* height and width of a rectangle in inches */
+int width;          
+int height;         
+
+int area;           
+int perimeter;      
+
+int main() {
+	height = 10;
+	width = 5;
+
+    perimeter = 2*(height + width);
+	printf("Perimeter of the rectangle = %f inches\n", perimeter);
+	
+	area = height * width;
+	printf("Area of the rectangle = %f square inches\n", area);
+
+return(0);
+}
+
+character using %d
+#include <stdio.h>
+
+int main () {
+
+   char greeting[7] = {'A', 'n', 't', 'o', 'n','i','o', '\0'};
+   printf("Hellooooo: %d", greeting );
+   return 0;
+}
 
 ## Example 4.6
+
 
 
