@@ -27,11 +27,48 @@ int main(){
 
 ## Example 4.3
 
+#include <stdio.h> 
+int width;          
+int height;         
 
+int area;           
+int perimeter;      
 
-## Exaample 4.4
+int main() {
+	height = 5;
+	width = 3;
 
+    perimeter = 2*(height + width);
+	printf("Perimeter of the rectangle is %d inches\n", perimeter);
+	
+	area = height * width;
+	printf("Area of the rectangle is %d square inches\n", area);
 
+return(0);
+}
+
+## Example 4.3.2 with floating
+
+#include <stdio.h> 
+float width;          
+float height;         
+
+float area;           
+float perimeter;      
+
+int main() 
+{
+	height = 2.3;
+	width = 6.8;
+
+    perimeter = 2*(height + width);
+	printf("Perimeter of the rectangle is %f/n inches\f", perimeter);
+	
+	area = height * width;
+	printf("Area of the rectangle is %f/n square inches\f", area);
+
+return(0);
+}
 
 ## Example 4.4
 
