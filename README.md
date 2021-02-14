@@ -175,5 +175,24 @@ int main () {
 
 ## Example 4.6
 
+#include <stdio.h> 
+int widthhouse;          
+int heighthouse;         
+
+int areahouse;           
+int perimeterhouse;      
+
+int main() {
+	heighthouse = 20;
+	widthhouse = 32;
+
+    perimeterhouse = 2*(heighthouse + widthhouse);
+	printf("Perimeter of the house is %d meters\n", perimeterhouse);
+	
+	areahouse = heighthouse * widthhouse;
+	printf("Area of the house is %d square meters\n", areahouse);
+
+return(0);
+}
 
 
