@@ -1,4 +1,4 @@
-# Exercises
+# Exercises Antonio Ruiz Nolasco
 ## Example 4.1
 
 #include <stdio.h>
